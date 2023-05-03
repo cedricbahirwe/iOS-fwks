@@ -20,7 +20,6 @@ final class TextRecognizer {
         self.cameraScan = cameraScan
     }
 
-
     // A function to recognize text from images and return an array of recognized text per page.
     func recognizeText(withCompletionHandler completionHandler: @escaping ([String]) -> Void) {
         // Execute the text recognition task asynchronously on a private DispatchQueue.
